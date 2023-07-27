@@ -1,0 +1,51 @@
+/*remove browser styles */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+li
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+}
+img
+{
+    width: 100%;
+    height: 60%;
+}
+.header-content
+{
+    padding: 0 2rem;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-break: break-all;
+}
+.logo
+{
+    height: 200px;
+    width: 250px;
+}
+.nav-links
+{
+    display:inline-flex;
+    background-color: blue;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    size: 40px;
+}
+
+
+
+
+
+
